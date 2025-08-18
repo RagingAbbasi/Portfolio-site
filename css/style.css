@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+        margin: 0;
+
+}
+svg {
+    margin: 5px 10px;
+    background-color: rgb(18, 18, 104);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    width: 15px;
+    border: solid 1px rgb(18, 18, 104);
+    border-radius: 45%;
+}
+svg:hover {
+    background-color: white;
+    color: rgb(18, 18, 104);
+}
+/*------------------HEADER------------------*/
+header {
+    display: grid;
+    margin: 0 30px;
+    grid-template-columns: 30% 50%;
+    justify-content: space-between;
+}
+header .nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+}
+header .nav-links ul li {
+    margin: 10px;
+}
+header .nav-links ul li a:hover {
+    color: rgb(18, 18, 104);
+    font-size: 18px;
+}
+.section-1 {
+    background: linear-gradient(60deg,rgb(18, 18, 104) 0%, #dfdfe1 52%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: #d0d0d8 solid 15px;
+    margin-bottom: 200px;
+}
+.section-1 .intro {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.section-1 h1 {
+    font-size: 40px;
+    color: #dfdfe1;
+    margin: 30px 0 10px;
+}
+.section-1 h1 .highlight {
+    text-shadow: 1px 1px #dfdfe1;
+    color: rgb(18, 18, 104);
+    font-size: 48px;
+}
+.section-1 h3 {
+        color: #dfdfe1;
+    text-shadow: 1px 1px rgb(18, 18, 104);
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+}
+.section-1 p {
+    background: -webkit-linear-gradient(60deg, #000000 40%, rgb(18, 18, 104) 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 220px;
+}
+.section-2 .services {
+    border-left: 30px solid rgb(18, 18, 104);
+    border-bottom: 10px solid rgb(18, 18, 104);
+    border-radius: 10px;
+    background: linear-gradient(50deg,#dfdfe1 0%, #ffffff 60%);
+    padding: 50px 70px 40px 100px;
+    color: rgb(18, 18, 104);
+    font-size: 28px;
+    text-align: right;
+}
+.section-2 img {
+    width: 600px;
+    border-left: #d0d0d8 solid 15px;
+    border-bottom: #d0d0d8 solid 15px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.section-3 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+     border-left: 30px solid rgb(18, 18, 104);
+    border-bottom: 10px solid rgb(18, 18, 104);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: linear-gradient(50deg,#dfdfe1 0%, #ffffff 60%);
+}
+.section-2 h1, .section-3 h1 {
+    text-shadow: 1px 1px rgb(18, 18, 104);
+    color: black;
+    font-size: 38px;
+    margin: 0;
+} 
+.section-2 li {
+  padding-bottom: 10px;
+}
+.section-3 .projects {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.section-3 img {
+    border: black 1px solid;
+    height: 180px;
+    /* border-top: 4px solid rgb(18, 18, 104);
+    border-bottom: 4px solid rgb(18, 18, 104); */
+}
+.section-3 h3 {
+color: rgb(18, 18, 104);
+    font-size: 28px;
+    text-align: center;
+}
+.section-4 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.section-4 .links {
+    border-right: 30px solid rgb(18, 18, 104);
+    border-bottom: 10px solid rgb(18, 18, 104);
+    border-radius: 10px;
+    background: linear-gradient(130deg, #ffffff 30%,#dfdfe1 80%);
+    padding: 50px 100px 40px 70px;
+    color: rgb(18, 18, 104);
+    font-size: 28px;
+}
+.section-4 img {
+    width: 600px;
+    border-right: #d0d0d8 solid 15px;
+    border-bottom: #d0d0d8 solid 15px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.section-4 a {
+    display: flex;
+    align-items: center;
+    color: rgb(18, 18, 104);
+    font-size: 24px;
+}
+footer p {
+    background-color: rgb(18, 18, 104);
+    color: white;
+    padding: 20px 50px;
+    margin: 0;
+}
